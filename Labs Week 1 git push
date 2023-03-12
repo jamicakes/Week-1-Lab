@@ -1,0 +1,116 @@
+Last login: Thu Mar  9 10:52:34 on ttys000
+jamicakes@Fernandos-MacBook-Air ~ % ls
+Desktop			Music			eclipse
+Documents		Pictures		eclipse-workspace
+Downloads		Promineo		week1Assignment
+Library			Public
+Movies			Week0
+jamicakes@Fernandos-MacBook-Air ~ % ls eclipse
+java-2022-12
+jamicakes@Fernandos-MacBook-Air ~ % ls eclipse-workspace
+Lab Week 1 attempt 3	Labs Week 1.2		Week1PreferencesTest
+Labs Attempt 4		MyFirstProject
+Labs Week 1		Week01_02_28_be
+jamicakes@Fernandos-MacBook-Air ~ % ls lab
+ls: lab: No such file or directory
+jamicakes@Fernandos-MacBook-Air ~ % ls Lab Week 1 attempt 3
+ls: 1: No such file or directory
+ls: 3: No such file or directory
+ls: Lab: No such file or directory
+ls: Week: No such file or directory
+ls: attempt: No such file or directory
+jamicakes@Fernandos-MacBook-Air ~ % ls
+Desktop			Music			eclipse
+Documents		Pictures		eclipse-workspace
+Downloads		Promineo		week1Assignment
+Library			Public
+Movies			Week0
+jamicakes@Fernandos-MacBook-Air ~ % ls eclipse-workspace
+Lab Week 1 attempt 3	Labs Week 1.2		Week1PreferencesTest
+Labs Attempt 4		MyFirstProject
+Labs Week 1		Week01_02_28_be
+jamicakes@Fernandos-MacBook-Air ~ % cd |"Lab Week 1 attempt 3"
+zsh: command not found: Lab Week 1 attempt 3
+jamicakes@Fernandos-MacBook-Air ~ % clear
+
+jamicakes@Fernandos-MacBook-Air ~ % >....                                       
+    isHotOutside =  !isHotOutside;
+        System.out.println(isHotOutside);
+
+
+
+        // 12.  Create a new variable called full name using the customer's first name,
+        //          the middle initial, and a last name of your choice
+    String fullName = firstName +  " " + middleInitial  + " Velez";
+
+    System.out.println(fullName);
+
+
+
+        // 13.  Print a line to the console that introduces the customer and says they live
+        //          at the address variable
+
+        System.out.println("Hi my name is " + fullName + " and I live at " + streetAddress);
+
+    }
+}
+zsh: event not found: isHotOutside
+jamicakes@Fernandos-MacBook-Air ~ % https://github.com/jamicakes/Week-1-Lab.git
+zsh: no such file or directory: https://github.com/jamicakes/Week-1-Lab.git
+jamicakes@Fernandos-MacBook-Air ~ % git push
+fatal: not a git repository (or any of the parent directories): .git
+jamicakes@Fernandos-MacBook-Air ~ % git push https://github.com/jamicakes/Week-1-Lab.git
+fatal: not a git repository (or any of the parent directories): .git
+jamicakes@Fernandos-MacBook-Air ~ % clear
+
+jamicakes@Fernandos-MacBook-Air ~ % echo "# Week-1-Lab" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/jamicakes/Week-1-Lab.git
+git push -u origin main
+Initialized empty Git repository in /Users/jamicakes/.git/
+[main (root-commit) 4e5f7fc] first commit
+ Committer: Jami Velez <jamicakes@Fernandos-MacBook-Air.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+Username for 'https://github.com': 
+Password for 'https://github.com': 
+remote: No anonymous write access.
+fatal: Authentication failed for 'https://github.com/jamicakes/Week-1-Lab.git/'
+jamicakes@Fernandos-MacBook-Air ~ % git config --global --edit
+hint: Waiting for your editor to close the file... 
+
+
+
+        // 12.  Create a new variable called full name using the customer's first name,
+        //          the middle initial, and a last name of your choice
+    String fullName = firstName +  " " + middleInitial  + " Velez";
+
+    System.out.println(fullName);
+
+
+
+        // 13.  Print a line to the console that introduces the customer and says they live
+        //          at the address variable
+
+        System.out.println("Hi my name is " + fullName + " and I live at " + streetAddress);
+
+    }
+}
+// 
+
+-- INSERT --
